@@ -2,7 +2,7 @@ import requests
 import json
 
 # Base URL of the API
-BASE_URL = "http://192.168.8.146:8000"
+BASE_URL = "http://localhost:8000"
 
 def list_automations():
     try:
