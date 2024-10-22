@@ -45,6 +45,7 @@ def list_repositories():
         print(f"An error occurred while listing repositories: {str(e)}")
 
 def main():
+    print("Running Github Repo Test")
     list_automations()
     list_repositories()
 
